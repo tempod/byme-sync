@@ -1,7 +1,7 @@
 {
   "domain": "byme_sync",
   "name": "By-me Sync",
-  "codeowners": ["tempod"],
+  "codeowners": ["@tempod"],
   "dependencies": ["knx"],
   "documentation": "https://github.com/tempod/byme-sync",
   "integration_type": "service",
