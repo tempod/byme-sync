@@ -6,7 +6,7 @@
 </p>
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
-[![Validazione](https://github.com/TUO_UTENTE_GITHUB/byme_sync/actions/workflows/validate.yml/badge.svg)](https://github.com/TUO_UTENTE_GITHUB/byme_sync/actions/workflows/validate.yml)
+[![Validazione](https://github.com/tempod/byme-sync/actions/workflows/validate.yml/badge.svg)](https://github.com/tempod/byme-sync/actions/workflows/validate.yml)
 
 # By-me Sync
 
