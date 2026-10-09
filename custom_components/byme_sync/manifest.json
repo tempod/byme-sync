@@ -1,12 +1,12 @@
 {
   "domain": "byme_sync",
   "name": "By-me Sync",
-  "codeowners": ["@TUO_UTENTE_GITHUB"],
+  "codeowners": ["tempod"],
   "dependencies": ["knx"],
-  "documentation": "https://github.com/TUO_UTENTE_GITHUB/byme_sync",
+  "documentation": "https://github.com/tempod/byme_sync",
   "integration_type": "service",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/TUO_UTENTE_GITHUB/byme_sync/issues",
+  "issue_tracker": "https://github.com/tempod/byme_sync/issues",
   "requirements": [],
   "version": "0.1.0"
 }
