@@ -3,10 +3,10 @@
   "name": "By-me Sync",
   "codeowners": ["tempod"],
   "dependencies": ["knx"],
-  "documentation": "https://github.com/tempod/byme_sync",
+  "documentation": "https://github.com/tempod/byme-sync",
   "integration_type": "service",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/tempod/byme_sync/issues",
+  "issue_tracker": "https://github.com/tempod/byme-sync/issues",
   "requirements": [],
   "version": "0.1.0"
 }
