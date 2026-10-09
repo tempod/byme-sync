@@ -1,0 +1,21 @@
+# Esempio con dati inventati: sostituisci entità, indirizzi e blocchi con i tuoi.
+# Per trovarli usa strumenti/mappa-rele-byme.html con il database di EasyTool.
+
+byme_sync:
+  # secondi di attesa dopo che il collegamento KNX è pronto (predefinito 10)
+  ritardo: 10
+  # true = corregge le entità diverse dallo stato reale; false = scrive solo nel log
+  allinea: true
+  # secondi di attesa per ogni risposta e tentativi in più (predefiniti 2 e 2)
+  timeout: 2
+  tentativi: 2
+  carichi:
+    - entita: light.luce_corridoio
+      indirizzo: "1.0.31"
+      blocco: 3
+    - entita: switch.presa_giardino
+      indirizzo: "1.0.52"
+      blocco: 4
+    - entita: switch.termostato_caldaia
+      indirizzo: "1.0.44"
+      blocco: 1

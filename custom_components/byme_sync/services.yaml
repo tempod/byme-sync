@@ -1,0 +1,41 @@
+aggiorna:
+  name: Aggiorna stati By-me
+  description: >-
+    Legge lo stato reale dai relè configurati e corregge le entità di Home
+    Assistant che non corrispondono.
+  fields:
+    entity_id:
+      name: Entità
+      description: Limita l'aggiornamento a queste entità. Vuoto = tutte quelle configurate.
+      required: false
+      selector:
+        entity:
+          multiple: true
+          domain:
+            - switch
+            - light
+
+leggi:
+  name: Leggi un canale By-me
+  description: >-
+    Legge lo stato di un blocco funzionale di un dispositivo By-me senza
+    modificare niente. Serve a verificare indirizzo e blocco prima di
+    aggiungerli alla configurazione.
+  fields:
+    indirizzo:
+      name: Indirizzo fisico
+      description: Indirizzo fisico del dispositivo che contiene il relè, per esempio 1.0.43.
+      required: true
+      example: "1.0.43"
+      selector:
+        text:
+    blocco:
+      name: Blocco funzionale
+      description: Numero del blocco funzionale (FB) del relè o dell'ingresso.
+      required: true
+      example: 3
+      selector:
+        number:
+          min: 1
+          max: 16
+          mode: box
